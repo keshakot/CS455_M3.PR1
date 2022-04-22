@@ -1,0 +1,29 @@
+{
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.9.0+cu111"
+    },
+    "ShootTargetAgent": {
+        "checkpoints": [
+            {
+                "steps": 9870,
+                "file_path": "results/ppo/ShootTargetAgent/ShootTargetAgent-9870.onnx",
+                "reward": 1.0,
+                "creation_time": 1650549727.2517061,
+                "auxillary_file_paths": [
+                    "results/ppo/ShootTargetAgent/ShootTargetAgent-9870.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 9870,
+            "file_path": "results/ppo/ShootTargetAgent.onnx",
+            "reward": 1.0,
+            "creation_time": 1650549727.2517061,
+            "auxillary_file_paths": [
+                "results/ppo/ShootTargetAgent/ShootTargetAgent-9870.pt"
+            ]
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "ShootTargetAgent": {
+        "checkpoints": [
+            {
+                "steps": 5570,
+                "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-5570.onnx",
+                "reward": null,
+                "creation_time": 1650616551.48278,
+                "auxillary_file_paths": [
+                    "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-5570.pt"
+                ]
+            },
+            {
+                "steps": 8387,
+                "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-8387.onnx",
+                "reward": null,
+                "creation_time": 1650616726.6271276,
+                "auxillary_file_paths": [
+                    "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-8387.pt"
+                ]
+            },
+            {
+                "steps": 9524,
+                "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-9524.onnx",
+                "reward": null,
+                "creation_time": 1650616965.2158613,
+                "auxillary_file_paths": [
+                    "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-9524.pt"
+                ]
+            },
+            {
+                "steps": 35243,
+                "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-35243.onnx",
+                "reward": 8.399230590233437,
+                "creation_time": 1650617481.6538053,
+                "auxillary_file_paths": [
+                    "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-35243.pt"
+                ]
+            },
+            {
+                "steps": 36398,
+                "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-36398.onnx",
+                "reward": null,
+                "creation_time": 1650617594.2790372,
+                "auxillary_file_paths": [
+                    "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-36398.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 36398,
+            "file_path": "results/ShootTargetAgent_T2/ShootTargetAgent.onnx",
+            "reward": null,
+            "creation_time": 1650617594.2790372,
+            "auxillary_file_paths": [
+                "results/ShootTargetAgent_T2/ShootTargetAgent/ShootTargetAgent-36398.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.29.0",
+        "torch_version": "1.9.0+cu111"
+    }
+}

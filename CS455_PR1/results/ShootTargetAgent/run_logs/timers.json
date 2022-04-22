@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1650615059",
+        "python_version": "3.9.7 (default, Sep 10 2021, 14:59:43) \n[GCC 11.2.0]",
+        "command_line_arguments": "/home/giantmidget/.local/bin/mlagents-learn --run-id=ShootTargetAgent --force ./config/ShootTargetAgent.yaml",
+        "mlagents_version": "0.29.0",
+        "mlagents_envs_version": "0.29.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.9.0+cu111",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1650615098"
+    },
+    "total": 39.04433812503703,
+    "count": 1,
+    "self": 0.0035716660204343498,
+    "children": {
+        "run_training.setup": {
+            "total": 0.025569792021997273,
+            "count": 1,
+            "self": 0.025569792021997273
+        },
+        "TrainerController.start_learning": {
+            "total": 39.0151966669946,
+            "count": 1,
+            "self": 0.0003210689756087959,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 39.014865687990095,
+                    "count": 1,
+                    "self": 39.014865687990095
+                },
+                "trainer_threads": {
+                    "total": 7.600174285471439e-07,
+                    "count": 1,
+                    "self": 7.600174285471439e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 9.150011464953423e-06,
+                    "count": 1,
+                    "self": 9.150011464953423e-06
+                }
+            }
+        }
+    }
+}
