@@ -734,7 +734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3a5c9d521e5ef4759a8246a07d52221e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DecisionPeriod: 20
+  DecisionPeriod: 5
   TakeActionsBetweenDecisions: 0
 --- !u!114 &1141085248
 MonoBehaviour:
@@ -1596,7 +1596,7 @@ MonoBehaviour:
   maxSpeed: 10
   maxAngularVelocity: 45
   myTarget: {fileID: 0}
-  firePeriod: 200
+  firePeriod: 400
   oa_target_prefab: {fileID: 8249060631982799719, guid: 8a1e84816257802c093c18812db7c13b,
     type: 3}
   mAgent: {fileID: 1141085244}
